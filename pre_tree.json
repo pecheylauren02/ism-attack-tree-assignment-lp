@@ -1,0 +1,18 @@
+{
+  "name": "System Compromise",
+  "type": "OR",
+  "children": [
+    {
+      "name": "Phishing Attack",
+      "type": "LEAF",
+      "probability": 0.6,
+      "impact": 50000
+    },
+    {
+      "name": "Exploit Vulnerability",
+      "type": "LEAF",
+      "probability": 0.7,
+      "impact": 120000
+    }
+  ]
+}
