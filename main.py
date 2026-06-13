@@ -45,3 +45,35 @@ def analyse(file_path, label):
     risk = calculate_risk(tree)
     print(f"\n  {label} Risk: £{risk:,.2f}")
     return risk
+
+
+def main():
+    print("\n=== ATTACK TREE RISK ANALYSIS TOOL ===")
+
+    pre = analyse("pre_tree.json", "PRE-DIGITALISATION")
+    post = analyse("post_tree.json", "POST-DIGITALISATION")
+
+    reduction = ((pre - post) / pre) * 100 if pre > 0 else 0.0
+
+    print("\n=== SUMMARY ===")
+    print(f"  Pre-Digitalisation Risk:  £{pre:,.2f}")
+    print(f"  Post-Digitalisation Risk: £{post:,.2f}")
+    print(f"  Risk Reduction:           {reduction:.2f}%")
+
+    # Bar chart comparing both scenarios
+    labels = ["Pre-Digitalisation", "Post-Digitalisation"]
+    values = [pre, post]
+    plt.figure(figsize=(8, 5))
+    bars = plt.bar(labels, values, color=["tomato", "steelblue"])
+    for bar, val in zip(bars, values):
+        plt.text(bar.get_x() + bar.get_width() / 2,
+                 bar.get_height() + max(values) * 0.01,
+                 f"£{val:,.0f}", ha="center", fontsize=11)
+    plt.title("Risk Comparison: Pre vs Post Digitalisation")
+    plt.ylabel("Expected Risk (£)")
+    plt.tight_layout()
+    plt.show()
+
+
+if __name__ == "__main__":
+    main()
