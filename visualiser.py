@@ -33,3 +33,18 @@ def _hierarchy_pos(G, node, width, vert_gap, vert_loc, xcenter, pos):
         for i, child in enumerate(children):
             _hierarchy_pos(G, child, dx, vert_gap, vert_loc - vert_gap, start_x + i * dx, pos)
     return pos
+
+
+def draw_tree(tree, title="Attack Tree"):
+    """Renders the attack tree as a hierarchical directed graph."""
+    G = nx.DiGraph()
+    build_graph(G, tree)
+
+    pos = hierarchy_pos(G, root=tree["name"], width=2.0, vert_gap=0.3)
+
+    plt.figure(figsize=(12, 7))
+    nx.draw(G, pos, with_labels=True, node_size=3000, node_color="lightblue",
+            font_size=9, font_weight="bold", arrows=True, arrowsize=15)
+    plt.title(title, fontsize=13, fontweight="bold")
+    plt.tight_layout()
+    plt.show()
