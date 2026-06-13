@@ -1,5 +1,5 @@
 {
-  "name": "Pampered Pets System Compromise",
+  "name": "Pampered Pets\nSystem Compromise",
   "type": "OR",
   "children": [
     {
@@ -7,13 +7,13 @@
       "type": "OR",
       "children": [
         {
-          "name": "Wireless Eavesdropping",
+          "name": "Wireless\nEavesdropping",
           "type": "LEAF",
           "probability": 0.7,
           "impact": 60000
         },
         {
-          "name": "Malware Injection via Wi-Fi",
+          "name": "Malware Injection\nvia Wi-Fi",
           "type": "LEAF",
           "probability": 0.6,
           "impact": 80000
@@ -25,13 +25,13 @@
       "type": "OR",
       "children": [
         {
-          "name": "Phishing / Credential Compromise",
+          "name": "Phishing /\nCredential Compromise",
           "type": "LEAF",
           "probability": 0.7,
           "impact": 45000
         },
         {
-          "name": "Data Loss via Legacy Warehouse System",
+          "name": "Data Loss via\nLegacy Warehouse System",
           "type": "LEAF",
           "probability": 0.65,
           "impact": 70000
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "name": "POS System Failure",
+      "name": "POS System\nFailure",
       "type": "LEAF",
       "probability": 0.5,
       "impact": 35000
