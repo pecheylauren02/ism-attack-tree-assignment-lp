@@ -33,3 +33,15 @@ def prompt_leaf_values(node):
 
     for child in node.get("children", []):
         prompt_leaf_values(child)
+
+
+def analyse(file_path, label):
+    """Loads the tree, collects user input, draws it, and returns the risk."""
+    print(f"\n{'='*50}\n  {label}\n{'='*50}")
+    tree = load_tree(file_path)
+    print("\nEnter values for each leaf node:")
+    prompt_leaf_values(tree)
+    draw_tree(tree, title=label)
+    risk = calculate_risk(tree)
+    print(f"\n  {label} Risk: £{risk:,.2f}")
+    return risk
