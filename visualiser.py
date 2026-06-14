@@ -31,7 +31,10 @@ def _hierarchy_pos(G, node, width, vert_gap, vert_loc, xcenter, pos):
         dx = width / len(children)
         start_x = xcenter - width / 2 + dx / 2
         for i, child in enumerate(children):
-            _hierarchy_pos(G, child, dx, vert_gap, vert_loc - vert_gap, start_x + i * dx, pos)
+            _hierarchy_pos(
+                G, child, dx, vert_gap,
+                vert_loc - vert_gap, start_x + i * dx, pos
+            )
     return pos
 
 
