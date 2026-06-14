@@ -153,44 +153,51 @@ ISO/IEC 27001 and the NIST RMF.
 | 6 | Figure 6 | flake8 terminal output showing a clean run |
 
 <details>
-<summary>Figure 1 — Terminal Output</summary>
+<summary>Figure 1.1 (Pre-digitalisation) — Terminal Output</summary>
 
-![Figure 1: Attack Tree Risk Analysis Tool — Terminal Output](screenshots/figure1_terminal_output.png)
+![Figure 1: Attack Tree Risk Analysis Tool — Terminal Output](docs/Figure 1.1: Attack Tree Risk Analysis Tool — Terminal Output.png)
+
+</details>
+
+<details>
+<summary>Figure 1.2 (Post-digitalisation) — Terminal Output</summary>
+
+![Figure 1.2: Attack Tree Risk Analysis Tool — Terminal Output](docs/Figure 1.2: Attack Tree Risk Analysis Tool — Terminal Output.png)
 
 </details>
 
 <details>
 <summary>Figure 2 — Pre-Digitalisation Attack Tree</summary>
 
-![Figure 2: Attack Tree Visualisation — Pre-Digitalisation Threat Model](screenshots/figure2_pre_tree.png)
+![Figure 2: Attack Tree Visualisation — Pre-Digitalisation Threat Model](docs/Figure 2: Attack Tree Visualisation — Pre-Digitalisation Threat Model.png)
 
 </details>
 
 <details>
 <summary>Figure 3 — Post-Digitalisation Attack Tree</summary>
 
-![Figure 3: Attack Tree Visualisation — Post-Digitalisation Threat Model](screenshots/figure3_post_tree.png)
+![Figure 3: Attack Tree Visualisation — Post-Digitalisation Threat Model](docs/Figure 3: Attack Tree Visualisation — Post-Digitalisation Threat Model.png)
 
 </details>
 
 <details>
 <summary>Figure 4 — Risk Comparison Bar Chart</summary>
 
-![Figure 4: Risk Comparison Bar Chart — Pre vs Post Digitalisation Expected Monetary Risk](screenshots/figure4_bar_chart.png)
+![Figure 4: Risk Comparison Bar Chart — Pre vs Post Digitalisation Expected Monetary Risk](docs/Figure 4: Risk Comparison Bar Chart — Pre vs Post Digitalisation Expected Monetary Risk.png)
 
 </details>
 
 <details>
 <summary>Figure 5 — Unit Test Results</summary>
 
-![Figure 5: Unit Test Results — pytest Output](screenshots/figure5_pytest.png)
+![Figure 5: Unit Test Results — pytest Output](docs/Figure 5: Unit Test Results — pytest Output.png)
 
 </details>
 
 <details>
 <summary>Figure 6 — Linter Report</summary>
 
-![Figure 6: Linter Evaluation Report — flake8 Output](screenshots/figure6_flake8.png)
+![Figure 6: Linter Evaluation Report — flake8 Output](docs/Figure 6: Linter Evaluation Report — flake8 Output.png)
 
 </details>
 
