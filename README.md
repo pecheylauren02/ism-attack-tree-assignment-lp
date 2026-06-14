@@ -157,49 +157,49 @@ ISO/IEC 27001 and the NIST RMF.
 <details>
 <summary>Figure 1.1 (Pre-digitalisation) — Terminal Output</summary>
 
-<img src="docs/figure 1.1.png" alt="Figure 1.1: Terminal Output Pre-Digitalisation" width="800"/>
+<img src="docs/figure1.1.png" alt="Figure 1.1: Terminal Output Pre-Digitalisation" width="800"/>
 
 </details>
 
 <details>
 <summary>Figure 1.2 (Post-digitalisation) — Terminal Output</summary>
 
-<img src="docs/figure 1.2.png" alt="Figure 1.2: Terminal Output Post-Digitalisation" width="800"/>
+<img src="docs/figure1.2.png" alt="Figure 1.2: Terminal Output Post-Digitalisation" width="800"/>
 
 </details>
 
 <details>
 <summary>Figure 2 — Pre-Digitalisation Attack Tree</summary>
 
-<img src="docs/figure 2.png" alt="Figure 2: Attack Tree Visualisation — Pre-Digitalisation" width="800"/>
+<img src="docs/figure2.png" alt="Figure 2: Attack Tree Visualisation — Pre-Digitalisation" width="800"/>
 
 </details>
 
 <details>
 <summary>Figure 3 — Post-Digitalisation Attack Tree</summary>
 
-<img src="docs/figure 3.png" alt="Figure 3: Attack Tree Visualisation — Post-Digitalisation" width="800"/>
+<img src="docs/figure3.png" alt="Figure 3: Attack Tree Visualisation — Post-Digitalisation" width="800"/>
 
 </details>
 
 <details>
 <summary>Figure 4 — Risk Comparison Bar Chart</summary>
 
-<img src="docs/figure 4.png" alt="Figure 4: Risk Comparison Bar Chart" width="800"/>
+<img src="docs/figure4.png" alt="Figure 4: Risk Comparison Bar Chart" width="800"/>
 
 </details>
 
 <details>
 <summary>Figure 5 — Unit Test Results</summary>
 
-<img src="docs/figure 5.png" alt="Figure 5: Unit Test Results — pytest Output" width="800"/>
+<img src="docs/figure5.png" alt="Figure 5: Unit Test Results — pytest Output" width="800"/>
 
 </details>
 
 <details>
 <summary>Figure 6 — Linter Report</summary>
 
-<img src="docs/figure 6.png" alt="Figure 6: Linter Evaluation Report — flake8 Output" width="800"/>
+<img src="docs/figure6.png" alt="Figure 6: Linter Evaluation Report — flake8 Output" width="800"/>
 
 </details>
 
