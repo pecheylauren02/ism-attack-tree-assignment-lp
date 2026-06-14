@@ -141,7 +141,7 @@ ISO/IEC 27001 and the NIST RMF.
 
 ---
 
-## Submission Screenshots
+## Submission Table Summary
 
 | # | Screenshot | What to Capture |
 |---|-----------|-----------------|
@@ -152,52 +152,54 @@ ISO/IEC 27001 and the NIST RMF.
 | 5 | Figure 5 | pytest terminal output showing all 6 tests passing |
 | 6 | Figure 6 | flake8 terminal output showing a clean run |
 
+### Submission Screenshots
+
 <details>
 <summary>Figure 1.1 (Pre-digitalisation) — Terminal Output</summary>
 
-![Figure 1: Attack Tree Risk Analysis Tool — Terminal Output](docs/Figure 1.1: Attack Tree Risk Analysis Tool — Terminal Output.png)
+<img src="docs/figure 1.1.png" alt="Figure 1.1: Terminal Output Pre-Digitalisation" width="800"/>
 
 </details>
 
 <details>
 <summary>Figure 1.2 (Post-digitalisation) — Terminal Output</summary>
 
-![Figure 1.2: Attack Tree Risk Analysis Tool — Terminal Output](docs/Figure 1.2: Attack Tree Risk Analysis Tool — Terminal Output.png)
+<img src="docs/figure 1.2.png" alt="Figure 1.2: Terminal Output Post-Digitalisation" width="800"/>
 
 </details>
 
 <details>
 <summary>Figure 2 — Pre-Digitalisation Attack Tree</summary>
 
-![Figure 2: Attack Tree Visualisation — Pre-Digitalisation Threat Model](docs/Figure 2: Attack Tree Visualisation — Pre-Digitalisation Threat Model.png)
+<img src="docs/figure 2.png" alt="Figure 2: Attack Tree Visualisation — Pre-Digitalisation" width="800"/>
 
 </details>
 
 <details>
 <summary>Figure 3 — Post-Digitalisation Attack Tree</summary>
 
-![Figure 3: Attack Tree Visualisation — Post-Digitalisation Threat Model](docs/Figure 3: Attack Tree Visualisation — Post-Digitalisation Threat Model.png)
+<img src="docs/figure 3.png" alt="Figure 3: Attack Tree Visualisation — Post-Digitalisation" width="800"/>
 
 </details>
 
 <details>
 <summary>Figure 4 — Risk Comparison Bar Chart</summary>
 
-![Figure 4: Risk Comparison Bar Chart — Pre vs Post Digitalisation Expected Monetary Risk](docs/Figure 4: Risk Comparison Bar Chart — Pre vs Post Digitalisation Expected Monetary Risk.png)
+<img src="docs/figure 4.png" alt="Figure 4: Risk Comparison Bar Chart" width="800"/>
 
 </details>
 
 <details>
 <summary>Figure 5 — Unit Test Results</summary>
 
-![Figure 5: Unit Test Results — pytest Output](docs/Figure 5: Unit Test Results — pytest Output.png)
+<img src="docs/figure 5.png" alt="Figure 5: Unit Test Results — pytest Output" width="800"/>
 
 </details>
 
 <details>
 <summary>Figure 6 — Linter Report</summary>
 
-![Figure 6: Linter Evaluation Report — flake8 Output](docs/Figure 6: Linter Evaluation Report — flake8 Output.png)
+<img src="docs/figure 6.png" alt="Figure 6: Linter Evaluation Report — flake8 Output" width="800"/>
 
 </details>
 
